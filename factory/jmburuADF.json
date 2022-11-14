@@ -1,0 +1,9 @@
+{
+	"name": "jmburuADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2edf7862-c7f5-439e-9632-b95b6e9794ff",
+		"tenantId": "46daf86a-1471-41ba-ae8d-a299dec011e5"
+	}
+}

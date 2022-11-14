@@ -1,0 +1,28 @@
+{
+	"name": "jmburuSSISIR",
+	"properties": {
+		"type": "Managed",
+		"description": "jmburuSSISIR",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"nodeSize": "Standard_D8_v3",
+				"numberOfNodes": 2,
+				"maxParallelExecutionsPerNode": 8
+			},
+			"ssisProperties": {
+				"catalogInfo": {
+					"catalogServerEndpoint": "jmburusqldbserver.database.windows.net",
+					"catalogAdminUserName": "jmburu",
+					"catalogAdminPassword": {
+						"type": "SecureString",
+						"value": "**********"
+					},
+					"catalogPricingTier": "S1"
+				},
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}
